@@ -1,6 +1,6 @@
 from openai import OpenAI
 # Set your OpenAI API key here
-client = OpenAI(api_key = "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")
+client = OpenAI(api_key = "your key here")
 
 def generate_story(prompt):
     # Call the OpenAI GPT-3 completions API
