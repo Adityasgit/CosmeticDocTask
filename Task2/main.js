@@ -22,7 +22,7 @@ function connectToMongoDB() {
   console.log("connecting.....");
   mongoose
     .connect(
-      "mongodb+srv://adityaaroraaditya12:adiadi124124@cosmeticdoctor.xgddwfq.mongodb.net/"
+      "mongodb+srv://adityaaroraaditya12:password@cosmeticdoctor.xgddwfq.mongodb.net/"
     )
     .then(console.log("DB connected succesfully"));
 }
